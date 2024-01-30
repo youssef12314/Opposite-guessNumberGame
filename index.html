@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>opposite guess the numbers game</h1>
+<p>WELCOME TO THE GAME BABYYYY!</p>
+<p>think about a number between 1-100 and the computer will try to guess it </p>
+<p>press play to start</p>
+
+<button onclick="generateRandomNumber()" id="generateButton">Play</button>
+
+<p id="result"></p>
+<p id="correct"></p>
+
+
+
+<div id="optionButtons">
+    <button onclick="generateRandomNumber()">Way too high</button>
+    <button onclick="numberCorrect()">Correct</button>
+    <button onclick="generateRandomNumber()">Way too low</button>
+  </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
